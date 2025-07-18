@@ -1,0 +1,76 @@
+0.2
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW):  0.457766
+
+0.21
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW):  0.457180 
+
+0.22
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW):  0.457185 
+
+0.23
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW):  0.457706 
+
+0.24
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW):  0.458668
+
+1200
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493382
+
+1150
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493178 
+
+1125
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493082 
+
+1100
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493077 
+
+1080
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493066 
+
+1075
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493030 
+
+1050
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493075
+
+1025
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493079 
+
+1000
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493178
+
+900
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.493751
+
+800
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.494759 
+
+700
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.496054 
+
+
+.16
+.24
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.488802 
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW, with 6 seed(s) used):  0.455288 
+
+.16
+.23
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.488802 
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW, with 6 seed(s) used):  0.455453 
+
+.17
+.24
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.489045 
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW, with 6 seed(s) used):  0.455288 
+
+.18
+.25
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.490466 
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW, with 6 seed(s) used):  0.455464 
+
+.19
+.26
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR 4BeamPulsed, with 6 seed(s) used):  0.492666 
+Cost for Summer Games 2025 ("18 m/s hurdles" for LIDAR CircularCW, with 6 seed(s) used):  0.455883 

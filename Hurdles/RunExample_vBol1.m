@@ -36,7 +36,7 @@ switch LidarType
         % configuration from LDP_v1_4BeamPulsed.IN and FFP_v1_4BeamPulsed.IN
         LDP.NumberOfBeams       = 4;            % [-]       Number of beams measuring at different directions               
         LDP.AngleToCenterline   = 19.176;       % [deg]     Angle around centerline
-        LDP.IndexGate           = 10;            % [-]       IndexGate
+        LDP.IndexGate           = 6;            % [-]       IndexGate
         LDP.FlagLPF             = 1;            % [0/1]     Enable low-pass filter (flag)
         LDP.omega_cutoff        = 0.13;         % [rad/s]   Corner frequency (-3dB) of the low-pass filter
         LDP.T_buffer            = 0.2;          % [s]       Buffer time for filtered REWS signal
