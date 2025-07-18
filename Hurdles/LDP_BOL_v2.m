@@ -1,4 +1,4 @@
-function [REWS,REWS_f,REWS_b]  = LDP_BOL_v1(time,isValid,beamID,lineOfSightWindSpeed,DT,LDP)
+function [REWS,REWS_f,REWS_b]  = LDP_BOL_v2(time,isValid,beamID,lineOfSightWindSpeed,DT,LDP)
 % Function to postprocess lidar data to get the rotor-effective wind speed
 % (REWS) equal to the LDP_v1/FFP_v1 without the need of compiling a DLL. 
 % Code is intented to be as close as possble to the Fortran Code.
@@ -27,7 +27,8 @@ for i_t = 1:n_t
 
     % Low pass filter the REWS
 	if LDP.FlagLPF
-		REWS_f_i     	= LPFilter(REWS_i,DT,LDP.omega_cutoff);
+        REWS_f_i     	= moving_average(REWS_i,LDP.n_moving_average);
+        % REWS_f_i     	= LPFilter(REWS_f_i_aux,DT,LDP.omega_cutoff);
     else
 		REWS_f_i      	= REWS_i;
     end
@@ -63,6 +64,7 @@ end
 
 % Update Buffer for estimated u component
 u_est_Buffer    = [u_est;u_est_Buffer(1:NumberOfBeams-1)];
+% u_est_Buffer    = [u_est_Buffer(1:NumberOfBeams-1);u_est];
 
 % Calculate REWS from mean over all estimated u components
 REWS  	        = mean(u_est_Buffer,'omitnan');
@@ -91,6 +93,18 @@ OutputSignal = 1.0/a1 * (-a0*OutputSignalLast + b1*InputSignal + b0*InputSignalL
 % Save signals for next time step
 InputSignalLast     = InputSignal;
 OutputSignalLast    = OutputSignal;
+end
+
+function OutputSignal = moving_average(InputSignal,n_moving_average)
+
+persistent u_buffer;
+if isempty(u_buffer)      
+    u_buffer = ones(n_moving_average,1)*InputSignal;
+end 
+% Update Buffer 
+u_buffer    = [InputSignal;u_buffer(1:n_moving_average-1)];
+OutputSignal = mean(u_buffer);
+
 end
 
 function REWS_b = Buffer(REWS,DT,T_buffer)
